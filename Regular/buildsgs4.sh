@@ -1,8 +1,9 @@
 #!/bin/bash
 #
-# LiquidSmooth Build Bot v1.0
+# LiquidSmooth Build Bot v1.1
 #
 # By: Shane Faulkner
+# Edited: Sean Hoyt
 # http://shanefaulkner.com
 #
 
@@ -14,15 +15,15 @@ LUNCHCD=()
 #----------------------Default Paths-----------------------#
 
 # your build source code directory path
-SAUCE="/home/liquid/android/liquid"
+SAUCE="/home/teamliquid/2.10"
 
 # your build storage location directory
-STORAGE="/home/liquid/Desktop/builds"
+STORAGE="/home/www/devs/teamliquid/official"
 
 #--------------------Default Settings----------------------#
 
 # your package name and version number
-VERSION="Liquid-JB-v2.8-OFFICIAL"
+VERSION="Liquid-JB-v2.10-OFFICIAL"
 
 #--------------------Default Products----------------------#
 
@@ -41,8 +42,8 @@ LUNCHCD[4]="liquid_jfltetmo-userdebug"
 PRODUCT[5]="jflteusc"
 LUNCHCD[5]="liquid_jflteusc-userdebug"
 
-#PRODUCT[6]="jfltevzw"
-#LUNCHCD[6]="liquid_jfltevzw-userdebug"
+PRODUCT[6]="jfltevzw"
+LUNCHCD[6]="liquid_jfltevzw-userdebug"
 
 PRODUCT[7]="jfltexx"
 LUNCHCD[7]="liquid_jfltexx-userdebug"

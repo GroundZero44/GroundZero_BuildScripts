@@ -1,8 +1,9 @@
 #!/bin/bash
 #
-# LiquidSmooth Build Bot v1.0
+# LiquidSmooth Build Bot v1.1
 #
 # By: Shane Faulkner
+# Edited: Sean Hoyt
 # http://shanefaulkner.com
 #
 
@@ -14,35 +15,32 @@ LUNCHCD=()
 #----------------------Default Paths-----------------------#
 
 # your build source code directory path
-SAUCE="/home/liquid/android/liquid"
+SAUCE="/home/teamliquid/2.10"
 
 # your build storage location directory
-STORAGE="/home/liquid/Desktop/builds"
+STORAGE="/home/www/devs/teamliquid/Nightly"
 
 #--------------------Default Settings----------------------#
 
 # your package name and version number
-VERSION="Liquid-JB-v2.8-OFFICIAL"
+VERSION="Liquid-JB-v2.10-Nightly"
 
 #--------------------Default Products----------------------#
 
-PRODUCT[1]="d2att"
-LUNCHCD[1]="liquid_d2att-userdebug"
+PRODUCT[1]="vigor"
+LUNCHCD[1]="liquid_vigor-userdebug"
 
-PRODUCT[2]="d2mtr"
-LUNCHCD[2]="liquid_d2mtr-userdebug"
+PRODUCT[2]="m7tmo"
+LUNCHCD[2]="liquid_m7tmo-userdebug"
 
-PRODUCT[3]="d2spr"
-LUNCHCD[3]="liquid_d2spr-userdebug"
+PRODUCT[3]="m7spr"
+LUNCHCD[3]="liquid_m7spr-userdebug"
 
-PRODUCT[4]="d2tmo"
-LUNCHCD[4]="liquid_d2tmo-userdebug"
+PRODUCT[4]="m7att"
+LUNCHCD[4]="liquid_m7att-userdebug"
 
-PRODUCT[5]="d2usc"
-LUNCHCD[5]="liquid_d2usc-userdebug"
-
-#PRODUCT[6]="d2vzw"
-#LUNCHCD[6]="liquid_d2vzw-userdebug"
+PRODUCT[5]="m7ul"
+LUNCHCD[5]="liquid_m7ul-userdebug"
 
 #---------------------Buildbot Code------------------------#
 

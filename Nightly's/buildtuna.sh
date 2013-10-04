@@ -18,7 +18,7 @@ LUNCHCD=()
 SAUCE="/home/teamliquid/2.10"
 
 # your build storage location directory
-STORAGE="/home/www/devs/teamliquid/Nightlys"
+STORAGE="/home/www/devs/teamliquid/Nightly"
 
 #--------------------Default Settings----------------------#
 
@@ -27,29 +27,26 @@ VERSION="Liquid-JB-v2.10-Nightly"
 
 #--------------------Default Products----------------------#
 
-PRODUCT[1]="i9300"
-LUNCHCD[1]="liquid_i9300-userdebug"
+PRODUCT[1]="grouper"
+LUNCHCD[1]="liquid_grouper-userdebug"
 
-PRODUCT[2]="i9305"
-LUNCHCD[2]="liquid_i9305-userdebug"
+PRODUCT[2]="maguro"
+LUNCHCD[2]="liquid_maguro-userdebug"
 
-PRODUCT[3]="i605"
-LUNCHCD[3]="liquid_i605-userdebug"
+PRODUCT[3]="mako"
+LUNCHCD[3]="liquid_mako-userdebug"
 
-PRODUCT[4]="l900"
-LUNCHCD[4]="liquid_l900-userdebug"
+PRODUCT[4]="manta"
+LUNCHCD[4]="liquid_manta-userdebug"
 
-PRODUCT[5]="n7100"
-LUNCHCD[5]="liquid_n7100-userdebug"
+PRODUCT[5]="toro"
+LUNCHCD[5]="liquid_toro-userdebug"
 
-PRODUCT[6]="t0lte"
-LUNCHCD[6]="liquid_t0lte-userdebug"
+# PRODUCT[5]="flo"
+# LUNCHCD[5]="liquid_toro-userdebug"
 
-PRODUCT[7]="t0lteatt"
-LUNCHCD[7]="liquid_t0lteatt-userdebug"
-
-PRODUCT[8]="t0ltetmo"
-LUNCHCD[9]="liquid_t0ltetmo-userdebug"
+# PRODUCT[5]="deb"
+# LUNCHCD[5]="liquid_toro-userdebug"
 
 #---------------------Buildbot Code------------------------#
 

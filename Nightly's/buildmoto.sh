@@ -1,8 +1,9 @@
 #!/bin/bash
 #
-# LiquidSmooth Buildbot v1.0
+# LiquidSmooth Buildbot v1.1
 #
 # By: Shane Faulkner
+# Edited: Sean Hoyt
 # http://shanefaulkner.com
 #
 
@@ -14,15 +15,15 @@ LUNCHCD=()
 #----------------------Default Paths-----------------------#
 
 # your build source code directory path
-SAUCE="/home/liquid/android/liquid"
+SAUCE="/home/teamliquid/2.10"
 
 # your build storage location directory
-STORAGE="/home/liquid/Desktop/builds"
+STORAGE="/home/www/devs/teamliquid/Nightly"
 
 #--------------------Default Settings----------------------#
 
 # your package name and version number
-VERSION="Liquid-JB-v2.8-OFFICIAL"
+VERSION="Liquid-JB-v2.10-Nightly"
 
 #--------------------Default Products----------------------#
 
@@ -40,6 +41,22 @@ LUNCHCD[4]="liquid_targa-userdebug"
 
 PRODUCT[5]="umts_spyder"
 LUNCHCD[5]="liquid_umts_spyder-userdebug"
+
+PRODUCT[5]="xt897"
+LUNCHCD[5]="liquid_xt897-userdebug"
+
+PRODUCT[5]="xt897c"
+LUNCHCD[5]="liquid_xt897c-userdebug"
+
+PRODUCT[5]="xt907"
+LUNCHCD[5]="liquid_xt907-userdebug"
+
+PRODUCT[5]="xt925"
+LUNCHCD[5]="liquid_xt925-userdebug"
+
+PRODUCT[5]="xt926"
+LUNCHCD[5]="liquid_xt926-userdebug"
+
 
 #---------------------Buildbot Code------------------------#
 
