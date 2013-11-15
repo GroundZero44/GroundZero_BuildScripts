@@ -1,4 +1,4 @@
-LiquidSmooth_BuildScripts
+GroundZero_BuildScripts
 =========================
 open the .sh script in a text editor and modify:
 
